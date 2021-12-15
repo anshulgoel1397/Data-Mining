@@ -1,0 +1,21 @@
+1.) Linear relation between dependent and independent variables.
+2.) Very low or no multicollinearity
+
+# Multicollinearity is when independent varibales have high degree of correlation
+# y=a+bx
+# Equation measures chnage in y with change in x, provided other variables kept constant, but here if one variable is changed, other variable will also change.
+# coefficients will get inflated
+# How ot detect multicollinearity: Use Variance Inflation factor: Search more about it, correlation matrix can be used
+# How to deal with it:  It is also possible to eliminate multicollinearity by combining two or more collinear variables into a single variable. 
+Very useful link: https://medium.com/analytics-vidhya/what-is-multicollinearity-and-how-to-remove-it-413c419de2f
+
+3.) Heteroscedasticity: plotting errors vs predicted values, error on y axis, error should be random,
+if errors follow some pattern, then it is heteroscedastcicity, homoscedasticity should be there.
+
+Watch out diagram on this link: https://rgpihlstrom.medium.com/using-the-past-to-predict-the-future-bb373268d20f
+
+4.) No autocorrelation between errors: errors should not be related to one another
+5.) Normal distribution of errors
+# Normality is checked using Q-Q plot
+
+6.) All observations are independent
